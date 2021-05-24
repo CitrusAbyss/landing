@@ -98,10 +98,11 @@ a {
 
 /* Cards media queries */
 @media (max-width: 800px) {
+/* If the width of the device is less than 800px, then we'll switch from 3 columns to 1. */
   .cards {
     grid-template-columns: 1fr;
-  }
-  
+  } 
+
   .card-white {
     width: auto;
   }
